@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Agenda Novo Contato</title>
+<link rel="icon" href="imagens/fone.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div>
+		<img id="imagemNovoContato" alt="imagemNovoContato" src="imagens/adicionarContatoGrande.png">
+		<h1>Criar Novo Contato</h1>
+		<form action="insert" name="frmContato">
+			<table>
+				<tr>
+					<td><input class="caixa1-PainelCadastroNovoEEditarContato" type="text" name="nome" placeholder="Nome" autocomplete="off" required="required"></td>
+				</tr>
+				<tr>
+					<td><input class="caixa2-PainelCadastroNovoEEditarContato" type="tel" name="fone" placeholder="Fone" autocomplete="off" required="required"></td>
+				</tr>
+				<tr>
+					<td><input class="caixa1-PainelCadastroNovoEEditarContato" type="email" name="email" placeholder="E-mail" autocomplete="off" required="required"></td>
+				</tr>
+			</table>
+			<input class="botao2-CadastrarNovoEEditarContato" type="button" value="Adicionar" onclick="validar()">
+		</form>
+	</div>
+	<script type="text/javascript" src="scripts/validador.js"></script>
+</body>
+</html>
